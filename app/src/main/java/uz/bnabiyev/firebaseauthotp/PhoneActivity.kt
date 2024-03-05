@@ -74,6 +74,7 @@ class PhoneActivity : AppCompatActivity() {
     }
 
     private fun sendToMain() {
+        finish()
         startActivity(Intent(this, MainActivity::class.java))
     }
 
